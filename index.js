@@ -13,4 +13,5 @@ function nameToAttributes(drivers) {
     Object.assign({}, drivers, {firstName: name[0], lastName: name[1]});
     console.log(drivers);
   });
+  console.log(drivers);
 }
