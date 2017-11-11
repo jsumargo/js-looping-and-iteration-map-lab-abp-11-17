@@ -11,6 +11,6 @@ function nameToAttributes(drivers) {
   return drivers.map(function(driver) {
     const name = driver.split(" ");
     console.log(name);
-    return Object.assign({}, driver, {firstName: name[0], lastName: name[1]});
+    return Object.assign({}, drivers, {firstName: name[0], lastName: name[1]});
   });
 }
