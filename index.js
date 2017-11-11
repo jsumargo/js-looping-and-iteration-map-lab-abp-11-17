@@ -14,3 +14,7 @@ function nameToAttributes(drivers) {
     console.log(drivers);
   });
 }
+
+function attributesToPhrase(drivers) {
+  
+}
