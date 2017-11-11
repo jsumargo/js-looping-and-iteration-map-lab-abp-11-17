@@ -8,7 +8,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  return console.log(drivers.map(function(driver) {
+  return drivers.map(function(driver) {
     return Object.assign({}, driver, {firstName: '', lastName: ''});
-  }););
+  });
 }
